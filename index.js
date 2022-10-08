@@ -10,6 +10,12 @@ function getRandomInt(min, max) {
 const rand = () =>{
     getRandomInt(0,11)
     let num = document.getElementById("num")
+    if (number < 10){
+      num.style.left = "930px"
+    }
+    if (number > 9){
+      num.style.left = "910px"
+    }
  num.textContent = number
 
 }
